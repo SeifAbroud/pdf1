@@ -18,6 +18,9 @@
                 <tr>
                     <th>ID</th>
                     <th>Filename</th>
+                    <th>Sender</th>
+                    <th>Receiver</th>
+                    <th>Subject</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -26,6 +29,9 @@
                 <tr>
                     <td>{{ file[0] }}</td>
                     <td>{{ file[1] }}</td>
+                    <td>{{ file[2] }}</td>
+                    <td>{{ file[3] }}</td>
+                    <td>{{ file[4] }}</td>
                     <td>
                         <a href="/download/{{ file[0] }}" class="btn btn-primary btn-sm">
                             Download
